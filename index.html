@@ -114,6 +114,7 @@
   </script>
 
   <!-- PERFORMANCE -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7675527666098811" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -150,39 +151,16 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ============ AD PLACEHOLDERS ============ */
+    /* ============ AD SLOTS ============ */
     .ad-slot {
-      background: repeating-linear-gradient(45deg, rgba(255,255,255,0.02), rgba(255,255,255,0.02) 10px, rgba(255,255,255,0.04) 10px, rgba(255,255,255,0.04) 20px);
-      border: 2px dashed rgba(255,107,53,0.2);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-dim);
-      font-family: var(--font-body);
-      font-size: 12px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      position: relative;
+      text-align: center;
       overflow: hidden;
+      margin: 0 auto;
     }
-    .ad-slot::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(circle at 50% 50%, rgba(255,107,53,0.05), transparent 70%);
-    }
-    .ad-slot-label {
-      position: relative; z-index: 1;
-      padding: 4px 12px;
-      background: rgba(0,0,0,0.3);
-      border-radius: 6px;
-      font-size: 10px;
-    }
-    .ad-leaderboard { width: 100%; max-width: 728px; height: 90px; margin: 0 auto; }
-    .ad-sidebar { width: 300px; height: 250px; }
-    .ad-mobile-banner { width: 100%; max-width: 320px; height: 100px; margin: 0 auto; }
-    .ad-interstitial { width: 100%; max-width: 468px; height: 60px; margin: 0 auto; }
+    .ad-leaderboard { width: 100%; max-width: 728px; min-height: 90px; margin: 0 auto; }
+    .ad-sidebar { width: 300px; min-height: 250px; }
+    .ad-mobile-banner { width: 100%; max-width: 320px; min-height: 100px; margin: 0 auto; }
+    .ad-interstitial { width: 100%; max-width: 468px; min-height: 60px; margin: 0 auto; }
 
     @media (max-width: 768px) {
       .ad-leaderboard { display: none; }
@@ -496,10 +474,12 @@
   <!-- ============ AD: TOP LEADERBOARD ============ -->
   <div style="padding: 16px 24px 0; max-width: 1200px; margin: 0 auto;">
     <div class="ad-slot ad-leaderboard">
-      <span class="ad-slot-label">AD — 728×90 Leaderboard</span>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
     <div class="ad-slot ad-mobile-banner">
-      <span class="ad-slot-label">AD — 320×100 Mobile</span>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
   </div>
 
@@ -516,10 +496,12 @@
     <!-- LEFT SIDEBAR -->
     <aside class="sidebar-left" aria-label="Advertisement">
       <div class="ad-slot ad-sidebar">
-        <span class="ad-slot-label">AD — 300×250 Sidebar</span>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
       <div class="ad-slot ad-sidebar" style="margin-top: 20px;">
-        <span class="ad-slot-label">AD — 300×250 Sidebar #2</span>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
     </aside>
 
@@ -532,10 +514,12 @@
       <!-- AD: BETWEEN GAME AND CONTENT -->
       <div style="margin: 28px 0;">
         <div class="ad-slot ad-interstitial">
-          <span class="ad-slot-label">AD — 468×60 In-Content</span>
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
         <div class="ad-slot ad-mobile-banner" style="margin-top: 8px;">
-          <span class="ad-slot-label">AD — 320×100 Mobile In-Content</span>
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         </div>
       </div>
     </main>
@@ -543,7 +527,8 @@
     <!-- RIGHT SIDEBAR -->
     <aside class="sidebar-right" aria-label="Advertisement">
       <div class="ad-slot ad-sidebar">
-        <span class="ad-slot-label">AD — 300×250 Sidebar</span>
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
     </aside>
   </div>
@@ -595,10 +580,12 @@
   <!-- ============ AD: BOTTOM LEADERBOARD ============ -->
   <div style="padding: 0 24px 24px; max-width: 1200px; margin: 0 auto;">
     <div class="ad-slot ad-leaderboard">
-      <span class="ad-slot-label">AD — 728×90 Bottom Leaderboard</span>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
     <div class="ad-slot ad-mobile-banner">
-      <span class="ad-slot-label">AD — 320×100 Mobile Bottom</span>
+      <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7675527666098811" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </div>
   </div>
 
